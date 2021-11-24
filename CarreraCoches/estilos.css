@@ -1,0 +1,88 @@
+/* Aplico los diferentes estilos a cada elemento*/
+.borde__arriba{
+    background: rgb(73, 72, 72);
+    height: 190px;
+    text-align: center;
+    
+    
+}
+.titulo{
+
+    padding-top: 15px;
+
+}
+.eleccion{
+    font-size: 16px;
+    font-weight: bold;
+    
+    
+}
+label{
+    font-size: 16px;
+    font-weight: bold;
+}
+#coches{
+    width: 115px;
+    
+    
+}
+.iniciar__boton{
+    
+    height: 50px;
+    width: 200px;
+    border: 4px solid rgb(61, 97, 121);
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+.iniciar__boton:hover{
+    background: #747474;
+}
+.reiniciar__boton:hover{
+    background: #747474;
+}
+.reiniciar__boton{
+    
+    height: 50px;
+    width: 200px;
+    border: 4px solid rgb(61, 97, 121);
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    
+    
+    
+}
+.fondo{
+    background-image: url("fondo.jpg");
+    width: 100%;
+    height: 900px;
+}
+.borde{
+
+    width: 100%;
+    height: 193px;
+}
+.coches{
+    width: 70px;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    margin-left: 0;
+    display: block;
+}
+#Posiciones{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border: 2px solid rgb(63, 62, 62);
+    margin-left: 850px;
+    position: fixed;
+    
+    
+}

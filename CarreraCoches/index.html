@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="./estilos.css">
+<script src="./jquery-3.6.0.min.js"></script>
+<script src="./codigo.js"></script>
+<title>Carrera Coches</title>
+
+</head>
+
+<body>      <!--Creo el Seleccionador para elegir los participantes-->
+<div class="borde__arriba">
+    <h1 class="titulo">Carrera de Coches</h1>
+        <label for="coches" class="eleccion">Selecciona un número de participantes:</label>
+        <select name="coches" id="coches" >
+            <option ></option>
+            <option value="1">1 Participante</option>
+            <option value="2">2 Participantes</option>
+            <option value="3">3 Participantes</option>
+            <option value="4">4 Participantes</option>
+            <option value="5">5 Participantes</option>
+            <option value="6">6 Participantes</option>
+            <option value="7">7 Participantes</option>
+            <option value="8">8 Participantes</option>
+            <option value="9">9 Participantes</option>
+        </select>
+        <br>
+        <button class="iniciar__boton" value = "Iniciar">Iniciar</button>
+        <button class="reiniciar__boton" value = "Reiniciar">Reiniciar</button>
+</div>  <!--Creo el fondo y la tabla de posiciones-->
+<div class="fondo">
+    
+    <div class="borde"></div>
+    <table id="Posiciones">
+        <caption>Posiciones Participantes</caption>
+        <tr>
+            <th>Posicion</th>
+            <th>Nombre</th>
+        </tr>
+        <tr class="cosas">
+
+        </tr>
+        
+    </table>
+    
+</div>
+</body>
+
+</html>
